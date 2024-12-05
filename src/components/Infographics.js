@@ -69,7 +69,7 @@ const Infographics = () => {
                         Courts
                     </h1>
                     <p className="flex items-center flex-1 justify-center">(Click on a marker for details)</p>
-                    <LoadScript googleMapsApiKey={NEXT_PUBLIC_GMAPS} async defer>
+                    <LoadScript googleMapsApiKey={NEXT_PUBLIC_GMAPS}>
                         <GoogleMap
                             mapContainerStyle={mapContainerStyle}
                             center={center}
