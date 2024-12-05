@@ -25,7 +25,7 @@ const Infographics = () => {
     }, [selectedCity]);
 
     // location
-    const NEXT_PUBLIC_GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+    const NEXT_PUBLIC_GMAPS = process.env.NEXT_PUBLIC_GMAPS;
     const mapContainerStyle = { width: '500px', height: '350px' };
 
     const locations = [
@@ -69,7 +69,7 @@ const Infographics = () => {
                         Courts
                     </h1>
                     <p className="flex items-center flex-1 justify-center">(Click on a marker for details)</p>
-                    <LoadScript googleMapsApiKey={NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
+                    <LoadScript googleMapsApiKey={NEXT_PUBLIC_GMAPS}>
                         <GoogleMap
                             mapContainerStyle={mapContainerStyle}
                             center={center}
