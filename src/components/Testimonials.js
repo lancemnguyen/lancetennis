@@ -4,7 +4,7 @@ const Testimonials = () => {
     const [showTestimonial, setShowTestimonial] = useState(0);
     const testimonials = [
         {
-        text: "I enjoy taking regular tennis lessons with Lance. The progress in the adult age is not easy but if you put persistent efforts and are passionate about it, your tennis technique habits start to improve.",
+        text: "I enjoy taking tennis lessons with Lance. He has a great technique on all of the strokes and by doing constant drills with him, gradually my own technique is improving as well.  The progress in tennis in adulthood is not easy but if you put persistent efforts and are passionate about it, there is a chance.",
         name: "Vlad",
         },
         {
