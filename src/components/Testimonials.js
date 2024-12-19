@@ -4,16 +4,22 @@ const Testimonials = () => {
     const [showTestimonial, setShowTestimonial] = useState(0);
     const testimonials = [
         {
+        text: "I can’t recommend Coach Lance highly enough as a tennis coach. He’s incredibly patient and always takes the time to break down even the most complex techniques into simple steps I can understand. For example, when I struggled with my backhand, he calmly worked with me, adjusting my grip and footwork until I felt confident.\n" +
+
+        "Coach Lance is also exceptionally knowledgeable about the game. Whether it’s the technical aspects of a serve or the mental strategies for match play, he always has valuable insights to share. During one lesson, he explained the biomechanics of my forehand in a way that immediately improved my swing and power.\n" +
+
+        "What truly sets him apart is how easygoing and approachable he is. No matter how many questions I ask or how many times I mess up a drill, he always responds with encouragement and a smile. Lessons with him are both productive and enjoyable, and I always leave feeling motivated and excited to improve.\n" +
+
+        "If you’re looking for a skilled and supportive tennis coach, Coach Lance is the perfect choice!",
+        name: "Xiao",
+        },
+        {
         text: "I enjoy taking tennis lessons with Lance. He has a great technique on all of the strokes and by doing constant drills with him, gradually my own technique is improving as well.  The progress in tennis in adulthood is not easy but if you put persistent efforts and are passionate about it, there is a chance.",
         name: "Vlad",
         },
         {
-        text: "The personalized lessons really helped me improve my technique and confidence.",
-        name: "John Smith",
-        },
-        {
         text: "The best tennis coaching I've ever had! Highly recommend!",
-        name: "Emily Johnson",
+        name: "Emily",
         },
 
     ];
