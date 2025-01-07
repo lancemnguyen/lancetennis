@@ -49,6 +49,18 @@ const Services = () => {
                         <div className="flex items-center flex-1 justify-center mt-2">
                             <p className="text-center">{service.content}</p>
                         </div>
+                        {/* Arrow at the bottom */}
+                        <div
+                            className="flex justify-center items-center mt-4"
+                        >
+                            <div
+                                className={`transition-transform duration-300 ease-in-out ${
+                                    activeIndex === index ? 'rotate-180' : ''
+                                }`}
+                            >
+                                ▼
+                            </div>
+                        </div>
                         {/* Expanded content with scrollable details */}
                         <div
                             className={`overflow-hidden transition-all duration-300 ease-in-out ${
